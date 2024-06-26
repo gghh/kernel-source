@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/s390 6.10.0-rc5 Kernel Configuration
+# Linux/s390 6.10.0-rc2 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (scripts/dummy-tools/gcc)"
 CONFIG_CC_IS_GCC=y
@@ -2540,7 +2540,7 @@ CONFIG_LDISC_AUTOLOAD=y
 CONFIG_SERIAL_CORE=m
 # CONFIG_SERIAL_JSM is not set
 # CONFIG_SERIAL_SCCNXP is not set
-# CONFIG_SERIAL_SC16IS7XX is not set
+# CONFIG_SERIAL_SC16IS7XX_CORE is not set
 # CONFIG_SERIAL_ALTERA_JTAGUART is not set
 # CONFIG_SERIAL_ALTERA_UART is not set
 # CONFIG_SERIAL_ARC is not set
@@ -4299,6 +4299,7 @@ CONFIG_INIT_STACK_NONE=y
 # CONFIG_GCC_PLUGIN_STACKLEAK is not set
 # CONFIG_INIT_ON_ALLOC_DEFAULT_ON is not set
 # CONFIG_INIT_ON_FREE_DEFAULT_ON is not set
+# CONFIG_INIT_MLOCKED_ON_FREE_DEFAULT_ON is not set
 CONFIG_CC_HAS_ZERO_CALL_USED_REGS=y
 # CONFIG_ZERO_CALL_USED_REGS is not set
 # end of Memory initialization
@@ -5120,3 +5121,4 @@ CONFIG_SUSE_AUXRELEASE=0
 # CONFIG_SUSE_KERNEL_SUPPORTED is not set
 # CONFIG_SUSE_KERNEL_RELEASED is not set
 # end of SUSE Release Details
+CONFIG_SCHED_CLASS_EXT=y
